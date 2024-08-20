@@ -1,0 +1,6 @@
+.breadcrumb{
+     display: flex;
+     align-items: center;
+     gap:10px;
+     opacity: 0.5;
+}

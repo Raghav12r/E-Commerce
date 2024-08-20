@@ -1,0 +1,79 @@
+.insidecart{
+    margin: 60px 100px;
+}
+.cartformat{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap:20px;
+    color:darkslateblue;
+    font-size: 18px;
+    font-weight: 600;
+}
+.insetrdata{
+    font-size: 15px;
+    font-weight: 500;
+}
+.imagedata{
+    height:90px;
+}
+.removeicon{
+    cursor: pointer;
+}
+.nettotal{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.maincont{
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.maincont button{
+    width:250px;
+    height:50px;
+    font-size: 17px;
+    margin-top: 10px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+.coupon{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.coupon p{
+    font-size: 12px;
+    opacity: 0.5;
+}
+.code{
+    display: flex;
+    gap:30px;
+    height:45px;
+    width:250px;
+    background-color:#eaeaea;
+}
+.code input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+.code button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,16 @@
+.famous{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+.famous h1{
+    font-size: 39px;
+}
+.famousitem{
+    display: flex;
+    gap:30px;
+    margin-bottom: 170px;
+    width: 100%;
+    justify-content: center;
+}

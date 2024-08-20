@@ -1,0 +1,48 @@
+.letter{
+    margin-top: 100px;
+    width:850px;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    background: linear-gradient(180deg,pink,white);
+    border-radius: 8px;
+    height: 300px;
+}
+.letter h1{
+    letter-spacing: 1px;
+}
+.letter p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: darkgoldenrod;
+}
+.letter div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.letter input{
+    outline: none;
+    border: none;
+    font-size: 19px;
+}
+.letter button{
+    width:150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

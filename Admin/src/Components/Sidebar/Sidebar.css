@@ -1,0 +1,35 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width:20%;
+    background: white;
+    height: 100vh;
+    margin-top: 2px;
+}
+.compo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+    padding:5px 0px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+.compo img{
+    width:40px;
+}
+.list img{
+    width: 40px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+    padding:5px 0px;
+    cursor: pointer;
+    margin-left: -10px;
+}

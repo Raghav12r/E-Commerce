@@ -1,0 +1,28 @@
+.desctop{
+    display: flex;
+    cursor: pointer;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid beige;
+    height: 40px;
+    width:150px;
+}
+.rev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid beige;
+    height: 40px;
+    width:150px;
+    background-color:#FBFBFB;
+}
+.desc{
+    display: block;
+}

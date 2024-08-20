@@ -1,0 +1,80 @@
+.rating{
+    color: gold;
+}
+.fullinfo{
+    display: flex;
+    margin: 20px 70px;
+    gap:40px;
+    height: fit-content;
+}
+.fullinfoleft{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    width:400px;
+}
+.multiimage{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.multiimage img{
+    width:80px;
+}
+.mainimage img{
+    width:250px;
+}
+.fullinforight{
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fullinforight h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.rating{
+    margin-top: -10px;
+}
+.fullinforight p{
+    margin-top: -5px;
+}
+.prices{
+    display: flex;
+    gap:10px;
+    font-size: 20px;
+}
+.old{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.new{
+    font-weight: 600;
+}
+.size{
+    display: flex;
+    flex-direction: column;
+}
+.size h1{
+    font-weight: 700;
+}
+.select{
+    display: flex;
+    gap:15px;
+    font-size: 16px;
+}
+.select p{
+    cursor: pointer;
+}
+.fullinforight button{
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+    background-color: red;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}

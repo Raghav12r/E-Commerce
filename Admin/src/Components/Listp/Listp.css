@@ -1,0 +1,31 @@
+.listp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:740px;
+    margin:30px;
+    background: white;
+    border-radius: 6px;
+}
+.main-listp{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    gap:30px;
+    width:100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: darkgray;
+    margin-bottom: 20px;
+}
+.api-listp img{
+    width:100px;
+}
+.api-listp{
+    align-items: center;
+    font-weight: 500;
+}
+.api-listp div{
+    cursor: pointer;
+    margin: auto;
+}

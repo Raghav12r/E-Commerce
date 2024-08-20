@@ -1,0 +1,52 @@
+.addproduct{
+    box-sizing: border-box;
+    width:100%;
+    max-width: 800px;
+    margin: 10px 20px;
+    background: white;
+    padding: 10px 20px;
+}
+.addinfo{
+    width:100%;
+    font-size: 16px;
+    color: darkgrey;
+}
+.addinfo input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 10px;
+    border:1px solid darkgrey;
+    outline: none;
+    font-size: 15px;
+    font-family: 'poppins';
+    color: darkgrey;
+}
+.addprice{
+    display: flex;
+    gap:30px;
+}
+.add-category{
+    width:100px;
+    height: 40px;
+    font-size: 15px;
+    color: darkgrey;
+    border:1px solid darkgrey;
+    border-radius: 4px;
+    padding: 7px;
+}
+.addbtn{
+    height: 40px;
+    width:100px;
+    border-radius: 6px;
+    background:#6079ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.uploadimg{
+    width: 100px;
+}
